@@ -1,0 +1,18 @@
+html{
+	font-family: arial;
+}
+
+.short{
+	width: 15px;
+	text-align: center;
+}
+
+table{
+	border-width: 1px;
+	border-style: dashed;
+}
+
+th, td{
+	border-width: 1px;
+	border-style: solid;
+}

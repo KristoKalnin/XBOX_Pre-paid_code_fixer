@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<title>XBOX Pre-paid code fixer</title>
+
+<link rel="stylesheet" href="kujundus.css">
+
+</head>
+
+<body>
+
+<h2>XBOX Pre-paid code "fixer"</h2>
+<h3>If you have scratched parts of your code then you can use this tool to generate the possible valid combinations</h3>
+<br>
+
+<p>Input your code as you would when redeeming it, leave the missing/scratched off fields blank</p>
+<br>
+<br>
+
+<form action="skript.php" method="POST">
+  Insert Code: 
+  <input type="text" name="char_1" class="short" maxlength="1">
+  <input type="text" name="char_2" class="short" maxlength="1">
+  <input type="text" name="char_3" class="short" maxlength="1">
+  <input type="text" name="char_4" class="short" maxlength="1">
+  <input type="text" name="char_5" class="short" maxlength="1">
+  -
+  <input type="text" name="char_6" class="short" maxlength="1">
+  <input type="text" name="char_7" class="short" maxlength="1">
+  <input type="text" name="char_8" class="short" maxlength="1">
+  <input type="text" name="char_9" class="short" maxlength="1">
+  <input type="text" name="char_10" class="short" maxlength="1">
+  -
+  <input type="text" name="char_11" class="short" maxlength="1">
+  <input type="text" name="char_12" class="short" maxlength="1">
+  <input type="text" name="char_13" class="short" maxlength="1">
+  <input type="text" name="char_14" class="short" maxlength="1">
+  <input type="text" name="char_15" class="short" maxlength="1">
+  -
+  <input type="text" name="char_16" class="short" maxlength="1">
+  <input type="text" name="char_17" class="short" maxlength="1">
+  <input type="text" name="char_18" class="short" maxlength="1">
+  <input type="text" name="char_19" class="short" maxlength="1">
+  <input type="text" name="char_20" class="short" maxlength="1">
+  -
+  <input type="text" name="char_21" class="short" maxlength="1">
+  <input type="text" name="char_22" class="short" maxlength="1">
+  <input type="text" name="char_23" class="short" maxlength="1">
+  <input type="text" name="char_24" class="short" maxlength="1">
+  <input type="text" name="char_25" class="short" maxlength="1">
+  
+  <input type="submit" value="Submit">
+  
+  <br>
+  <br>
+  
+<!--
+  <p>Valid characters: "B","C","D","F", "G", "H", "J", "K", "M", "P", "Q", "R", "T", "V", "W", "X", "Y", "Z", "2", "3", "4", "6", "7", "8", "9"</p>
+-->
+
+<table>
+	<tr>
+		<th>Missing characters</th>
+		<th>Possible combinations</th>
+	</tr>
+	
+	<tr>
+		<td>1</td>
+		<td>25</td>
+	</tr>
+	
+	<tr>
+		<td>2</td>
+		<td>625</td>
+	</tr>
+	
+	<tr>
+		<td>3</td>
+		<td>15625</td>
+	</tr>
+	
+	<tr>
+		<td>4 (server needs more RAM)</td>
+		<td>390625</td>
+	</tr>
+	
+	<tr>
+		<td>5+ (not supported)</td>
+		<td>9765625+</td>
+	</tr>
+</table>
+
+</form>
+
+</body>
+
+</html>
